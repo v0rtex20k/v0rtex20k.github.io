@@ -9,14 +9,13 @@ body {
 
 .welcome-container {
 	display: flex;
-	min-height: 100vh;
+	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
 	border: 3px solid black;
 }
 
 .welcome-item {
-	min-height: 100vh;
 	align-items: center;
 	justify-content: center;
 	border: 1px solid red;
@@ -41,7 +40,6 @@ body {
 
 .break {
   height: 2px;
-  flex-basis: 100%;
   width: 100%!important;
   border: 1px dashed black;
   background-color: green;
