@@ -14,7 +14,7 @@ body {
 	justify-content: center;
 }
 
-.welcome-box h1 {
+.welcome-container h1 {
 	flex: 0 0 100%;
 	font-size: 64px;
 	text-align: center;
@@ -24,7 +24,7 @@ body {
 	text-align: center;
 }
 
-.welcome-bubble p {
+.welcome-container p {
 	font-size: 18px;
 	color: var(--tufts-blue);
 	font-family: 'Montserrat', sans-serif;
