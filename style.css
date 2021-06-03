@@ -7,15 +7,11 @@ body {
 	background-color: #F5F5DC
 }
 
-.welcome-box {
+.welcome-container {
 	display: flex;
-	flex-flow: wrap;
-	align-content: center;
+	min-height: 100vh;
 	align-items: center;
 	justify-content: center;
-	padding: 0;
-	margin: 0;
-	list-style: none;
 }
 
 .welcome-box h1 {
@@ -24,11 +20,16 @@ body {
 	text-align: center;
 	color: var(--tufts-blue);
 	font-family: 'Roboto', sans-serif;
+	background-color: black;
+	position: relative;
+	text-align: center;
 }
 
 .welcome-bubble p {
-	flex: 0 0 100%;
 	font-size: 18px;
 	color: var(--tufts-blue);
 	font-family: 'Montserrat', sans-serif;
+	background-color: black;
+	position: relative;
+	text-align: center;
 }
