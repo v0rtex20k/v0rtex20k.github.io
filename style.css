@@ -1,20 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 :root {--tufts-blue: #3E8EDE;}
 
 body {
-	background-color: var(--tufts-blue);
+	background-color: #F5F5DC
 }
 
-.my-name {
+.welcome-bubble {
+	border-color: red;
+}
+
+.welcome-bubble h1 {
 	font-size: 64px;
 	text-align: center;
+	color: var(--tufts-blue);
 	font-family: 'Roboto', sans-serif;
 }
 
-.redirects {
-	font-size: 20px;
+.welcome-bubble p {
+	font-size: 18px;
+	color: var(--tufts-blue);
 	font-family: 'Montserrat', sans-serif;
 }
