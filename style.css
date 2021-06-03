@@ -20,7 +20,6 @@ body {
 	text-align: center;
 	color: var(--tufts-blue);
 	font-family: 'Roboto', sans-serif;
-	background-color: black;
 	position: relative;
 	text-align: center;
 }
@@ -29,7 +28,6 @@ body {
 	font-size: 18px;
 	color: var(--tufts-blue);
 	font-family: 'Montserrat', sans-serif;
-	background-color: black;
 	position: relative;
 	text-align: center;
 }
