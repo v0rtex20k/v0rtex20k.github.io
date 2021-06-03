@@ -41,6 +41,7 @@ body {
 
 .break {
   height: 0;
-  width: 100%;
+  flex-basis: 100%;
+  border: 1px dashed black;
   background-color: green;
 }
