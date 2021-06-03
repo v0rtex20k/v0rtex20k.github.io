@@ -1,5 +1,5 @@
 :root {--tufts-blue: #3E8EDE;}
 
 body {
-	background-color: var(--tufts-blue)
+	background-color: var(--tufts-blue);
 }
