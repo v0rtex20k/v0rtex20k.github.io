@@ -7,16 +7,19 @@ body {
 	background-color: #F5F5DC
 }
 
-.welcome-bubble {
+.welcome-box {
 	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-around;
+	flex-flow: wrap;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
 	padding: 0;
 	margin: 0;
 	list-style: none;
 }
 
-.welcome-bubble h1 {
+.welcome-box h1 {
+	flex: 0 0 100%;
 	font-size: 64px;
 	text-align: center;
 	color: var(--tufts-blue);
@@ -24,6 +27,7 @@ body {
 }
 
 .welcome-bubble p {
+	flex: 0 0 100%;
 	font-size: 18px;
 	color: var(--tufts-blue);
 	font-family: 'Montserrat', sans-serif;
