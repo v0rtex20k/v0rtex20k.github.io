@@ -14,7 +14,14 @@ body {
 	justify-content: center;
 }
 
-.welcome-container h1 {
+.welcome-item {
+	display: flex;
+	min-height: 100vh;
+	align-items: center;
+	justify-content: center;
+}
+
+.welcome-item h1 {
 	font-size: 64px;
 	text-align: center;
 	color: var(--tufts-blue);
@@ -23,7 +30,7 @@ body {
 	text-align: center;
 }
 
-.welcome-container p {
+.welcome-item p {
 	font-size: 18px;
 	color: var(--tufts-blue);
 	font-family: 'Montserrat', sans-serif;
@@ -32,6 +39,6 @@ body {
 }
 
 .break {
-  flex-basis: 100%;
   height: 0;
+  width: 100%;
 }
