@@ -12,14 +12,14 @@ body {
 	min-height: 100vh;
 	align-items: center;
 	justify-content: space-between;
-	border: solid 3px black;
+	border: 3px solid black;
 }
 
 .welcome-item {
 	min-height: 100vh;
 	align-items: center;
 	justify-content: center;
-	border: solid 1px red;
+	border: 1px solid red;
 }
 
 .welcome-item h1 {
