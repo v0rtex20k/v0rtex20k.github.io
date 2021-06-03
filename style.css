@@ -1,6 +1,7 @@
-:root {--tufts-blue: #3E8EDE;}
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+:root {--tufts-blue: #3E8EDE;}
 
 body {
 	background-color: var(--tufts-blue);
