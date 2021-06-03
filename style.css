@@ -15,7 +15,6 @@ body {
 }
 
 .welcome-container h1 {
-	flex: 0 0 100%;
 	font-size: 64px;
 	text-align: center;
 	color: var(--tufts-blue);
