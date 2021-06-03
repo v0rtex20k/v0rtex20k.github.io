@@ -1,5 +1,7 @@
 :root {--tufts-blue: #3E8EDE;}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
 	background-color: var(--tufts-blue);
+	font-family: 'Roboto', sans-serif;
 }
