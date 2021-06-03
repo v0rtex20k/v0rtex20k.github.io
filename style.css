@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 :root {--tufts-blue: #3E8EDE;}
 
@@ -8,17 +8,13 @@ body {
 	background-color: var(--tufts-blue);
 }
 
-h1 {
+.my-name {
+	font-size: 64px;
+	text-align: center;
 	font-family: 'Roboto', sans-serif;
-	font-size: 48px;
 }
 
-h2 {
-	font-family: 'Cedarville Cursive', cursive;
-	font-size: 48px;
-}
-
-h3 {
+.redirects {
+	font-size: 20px;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 24px;
 }
