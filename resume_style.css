@@ -60,18 +60,15 @@ body {background-color: #F5F5DC;}
 
 .frame {
   z-index: 100;
-  width: 500px;
-  min-width: 50%;
-  max-width: 75%;
+  width: 600px;
+  min-width: 60%;
+  max-width: 90%;
   height: 420px;
-  max-height: 90%;
+  max-height: 95%;
   padding-right: 30px;
   border-left: 3px double var(--tufts-brown);
   border-right: 3px double var(--tufts-brown);
 }
-
-#rom-frame {height: 385px;}
-#fra-frame {height: 370px;}
 
 .frame h1 {
 	font-size: 24px;
@@ -83,7 +80,7 @@ body {background-color: #F5F5DC;}
 }
 
 .frame p,a, li {
-	font-size: 10px;
+	font-size: 12px;
 	position: relative;
 	text-align: justify;
   list-style-type: none;
