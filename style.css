@@ -15,6 +15,7 @@ body {
 	justify-content: space-around;
 }
 
+#center {width:100%;}
 .main-item {
 	min-width: 120px;
 	text-align: center;
@@ -29,6 +30,10 @@ body {
 	justify-content: center;
 
 }
+.sub-item:hover {
+	filter: opacity(35%);
+	transform: scale(1.25);
+}
 
 .main-item h1 {
 	font-size: 72px;
@@ -40,6 +45,7 @@ body {
 
 .main-item h2 {
 	opacity: 0;
+	width: 97%;
 	font-size: 20px;
 	position: relative;
 	text-align: center;
@@ -51,17 +57,14 @@ body {
 }
 
 .main-item h2.efade {
-	margin-left: 15%;
 	animation-delay: -4s;
 	visibility: visible;
 }
 .main-item h2.rfade {
-	margin-left: 8%;
 	visibility: visible;
 	animation-delay: -8s;
 }
 .main-item h2.ffade {
-	margin-left: 2.5%;
 	visibility: visible;
 	animation-delay: -12s;
 }
@@ -71,47 +74,42 @@ body {
   50% {opacity:0;}
 }
 
-.main-item p {
+.main-item p,a {
 	font-size: 12px;
 	position: relative;
 	text-align: center;
+	text-decoration: none;
 	color: var(--tufts-blue);
 	font-family: 'Montserrat', sans-serif;
 }
 
+#dropdown {width: 50px;}
 .main-item img{
-	width: 75px;
+	width: 100px;
 	filter: opacity(50%);
 }
 
 .sub-item img{
 	width: 50px;
 }
-.main-item img:hover {
-  transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+.main-item a{
+	opacity: 0;
+	/*transition-duration: 2s;*/
 }
 
-.hiddenImg {
-	visibility: hidden;
+.main-item:hover img {
+	filter: opacity(35%);
+	transform: scale(1.25);
 }
 
-.hiddenImg-caption {
-	visibility: hidden;
-	font-weight: bold;
+.main-item:hover a ~.img{
+	opacity: 1;
+	transform: scale(0.5); /* override base img scale */
 }
 
-.main-item img:hover {
-	filter: opacity(37%);
-}
-
-.main-item img:hover ~ .hiddenImg {
-  visibility: visible;
-}
-
-.main-item img:hover ~ .hiddenImg-caption {
-  visibility: visible;
-	font-weight: bold;
-	overflow: inherit;
+.main-item:hover a{
+	opacity: 1;
 }
 
 .break {
