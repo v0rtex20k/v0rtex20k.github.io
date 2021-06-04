@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+:root {--tufts-blue: #3E8EDE;
+       --tufts-brown: #654321}
+
+body {background-color: #F5F5DC;}
+
+#brown {color: var(--tufts-brown);}
+#under {text-decoration: underline;}
+#brown_under {color: var(--tufts-brown); text-decoration: underline;}
+
+.main-container {
+	display: flex;
+	flex-wrap: wrap;
+	min-height: 100vh;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#center {width:100%;}
+.main-item {
+  display: flex;
+	min-width: 120px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.sub-item {
+	width: 120px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+
+}
+.sub-item:hover {
+	filter: opacity(35%);
+	transform: scale(1.25);
+}
+
+.main-item h1 {
+	font-size: 72px;
+	position: relative;
+	text-align: center;
+	color: var(--tufts-blue);
+	font-family: 'Roboto', sans-serif;
+}
+
+.main-item a {
+	font-size: 16px;
+	position: relative;
+	text-align: justify;
+  align-items: center;
+  justify-content: center;
+	text-decoration: none;
+	color: var(--tufts-blue);
+	font-family: 'Montserrat', sans-serif;
+}
+
+.frame {
+  z-index: 100;
+  width: 500px;
+  min-width: 50%;
+  max-width: 75%;
+  height: 420px;
+  max-height: 90%;
+  padding-right: 30px;
+  border-left: 3px double var(--tufts-brown);
+  border-right: 3px double var(--tufts-brown);
+}
+
+#rom-frame {height: 385px;}
+#fra-frame {height: 370px;}
+
+.frame h1 {
+	font-size: 24px;
+	position: relative;
+	text-align: center;
+	color: var(--tufts-blue);
+  margin-top: -4px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.frame p,a, li {
+	font-size: 10px;
+	position: relative;
+	text-align: justify;
+  list-style-type: none;
+	text-decoration: none;
+	color: var(--tufts-blue);
+	font-family: 'Montserrat', sans-serif;
+}
+
+.frame img{
+  width: 10px;
+}
+
+.frame li::before {
+    content: '';
+    margin-left: -20px;
+    margin-right: 5px;
+    --marker-size: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    width: var(--marker-size);
+    height: var(--marker-size);
+    background-size: var(--marker-size);
+    background-position: center center;
+    background-image: url("photos/highlight.png");
+}
+
+#dropdown {width: 50px;}
+.main-item img{
+	width: 50px;
+	filter: opacity(50%);
+}
+
+.sub-item img{
+	width: 50px;
+}
+
+.break {
+  height: 0px;
+  flex-basis: 100%;
+}
