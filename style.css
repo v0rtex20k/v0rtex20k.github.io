@@ -1,46 +1,120 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 :root {--tufts-blue: #3E8EDE;}
 
 body {
-	background-color: #F5F5DC
+	background-color: #F5F5DC;
 }
 
-.welcome-container {
+.main-container {
 	display: flex;
 	flex-wrap: wrap;
+	min-height: 100vh;
 	align-items: center;
-	justify-content: space-between;
-	border: 3px solid black;
+	justify-content: space-around;
 }
 
-.welcome-item {
+.main-item {
+	min-width: 120px;
+	text-align: center;
 	align-items: center;
 	justify-content: center;
-	border: 1px solid red;
 }
 
-.welcome-item h1 {
-	font-size: 64px;
+.sub-item {
+	width: 120px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.main-item h1 {
+	font-size: 72px;
+	position: relative;
 	text-align: center;
 	color: var(--tufts-blue);
 	font-family: 'Roboto', sans-serif;
-	position: relative;
-	text-align: center;
 }
 
-.welcome-item p {
-	font-size: 18px;
-	color: var(--tufts-blue);
-	font-family: 'Montserrat', sans-serif;
+.main-item h2 {
+	opacity: 0;
+	font-size: 20px;
 	position: relative;
 	text-align: center;
+	justify-content: center;
+	color: var(--tufts-blue);
+	font-family: 'Roboto', sans-serif;
+	animation: fadeIn 12s infinite;
+	position: absolute;
+}
+
+.main-item h2.efade {
+	margin-left: 15%;
+	animation-delay: -4s;
+	visibility: visible;
+}
+.main-item h2.rfade {
+	margin-left: 8%;
+	visibility: visible;
+	animation-delay: -8s;
+}
+.main-item h2.ffade {
+	margin-left: 2.5%;
+	visibility: visible;
+	animation-delay: -12s;
+}
+
+@keyframes fadeIn {
+  30% {opacity:1;}
+  50% {opacity:0;}
+}
+
+.main-item p {
+	font-size: 12px;
+	position: relative;
+	text-align: center;
+	color: var(--tufts-blue);
+	font-family: 'Montserrat', sans-serif;
+}
+
+.main-item img{
+	width: 75px;
+	filter: opacity(50%);
+}
+
+.sub-item img{
+	width: 50px;
+}
+.main-item img:hover {
+  transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.hiddenImg {
+	visibility: hidden;
+}
+
+.hiddenImg-caption {
+	visibility: hidden;
+	font-weight: bold;
+}
+
+.main-item img:hover {
+	filter: opacity(37%);
+}
+
+.main-item img:hover ~ .hiddenImg {
+  visibility: visible;
+}
+
+.main-item img:hover ~ .hiddenImg-caption {
+  visibility: visible;
+	font-weight: bold;
+	overflow: inherit;
 }
 
 .break {
-  height: 2px;
-  width: 100%!important;
-  border: 1px dashed black;
-  background-color: green;
+  height: 0px;
+  flex-basis: 100%;
 }
