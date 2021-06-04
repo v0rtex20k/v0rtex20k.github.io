@@ -60,11 +60,12 @@ body {background-color: #F5F5DC;}
 
 .frame {
   z-index: 100;
-  width: 600px;
+  width: 700px;
   min-width: 60%;
   max-width: 90%;
-  height: 420px;
+  height: 550px;
   max-height: 95%;
+  min-height: 75%;
   padding-right: 30px;
   border-left: 3px double var(--tufts-brown);
   border-right: 3px double var(--tufts-brown);
@@ -80,7 +81,7 @@ body {background-color: #F5F5DC;}
 }
 
 .frame p,a, li {
-	font-size: 12px;
+	font-size: 16px;
 	position: relative;
 	text-align: justify;
   list-style-type: none;
