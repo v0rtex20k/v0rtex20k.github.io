@@ -63,19 +63,13 @@ body {background-color: #F5F5DC;}
   width: 700px;
   min-width: 60%;
   max-width: 90%;
+  height: 550px;
   max-height: 95%;
   min-height: 75%;
-  padding-top: 10px;
   padding-right: 30px;
   border-left: 3px double var(--tufts-brown);
   border-right: 3px double var(--tufts-brown);
 }
-
-#eframe {height: 565px;}
-#rframe {height: 565px;}
-#fframe {height: 565px;}
-
-
 
 .frame h1 {
 	font-size: 24px;
