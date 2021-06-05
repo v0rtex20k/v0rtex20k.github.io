@@ -71,7 +71,7 @@ body {background-color: #F5F5DC;}
   border-right: 3px double var(--tufts-brown);
 }
 
-#eframe {height: 520px;}
+#eframe {height: 500px;}
 #rframe {height: 565px;}
 #fframe {height: 572px;}
 
