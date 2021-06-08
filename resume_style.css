@@ -89,6 +89,7 @@ body {background-color: #F5F5DC;}
 	font-family: 'Montserrat', sans-serif;
 }
 
+
 .frame a[href]{
   text-decoration: underline;
 }
@@ -109,6 +110,10 @@ body {background-color: #F5F5DC;}
     background-size: var(--marker-size);
     background-position: center center;
     background-image: url("photos/highlight.png");
+}
+
+.frame li.starless::before {
+  background-image: none;
 }
 
 .flexul {
