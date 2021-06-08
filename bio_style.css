@@ -114,18 +114,13 @@ body {background-color: #F5F5DC;}
     background-image: url("photos/highlight.png");
 }
 
-#dropdown {width: 50px;}
-#vicpic {
+.vicpic {
   width: auto;
   height: 200px;
-  filter: opacity(100%);
   border-radius: 5px;
 }
 
-.main-item img{
-	width: 50px;
-	filter: opacity(50%);
-}
+#go-back {width:50px; filter: opacity(50%);}
 
 .sub-item img{
 	width: 50px;
