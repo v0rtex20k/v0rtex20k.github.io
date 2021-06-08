@@ -23,6 +23,10 @@ body {
 	justify-content: center;
 }
 
+.main-item.center {
+	width:100%;
+}
+
 .sub-item {
 	width: 120px;
 	text-align: center;
@@ -83,10 +87,14 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
-#dropdown {width: 50px;}
+/*#dropdown {width: 50px;}*/
 .main-item img{
 	width: 100px;
 	filter: opacity(50%);
+}
+
+.main-item img.dropdown{
+	width: 50px;
 }
 
 .sub-item img{

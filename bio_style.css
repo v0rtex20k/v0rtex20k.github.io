@@ -6,10 +6,6 @@
 
 body {background-color: #F5F5DC;}
 
-#brown {color: var(--tufts-brown);}
-#under {text-decoration: underline;}
-#brown_under {color: var(--tufts-brown); text-decoration: underline;}
-
 .main-container {
 	display: flex;
 	flex-wrap: wrap;
